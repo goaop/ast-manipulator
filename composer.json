@@ -1,0 +1,29 @@
+{
+    "name": "goaop/ast-manipulator",
+    "description": "Library for transforming an AST of original PHP files",
+    "type": "library",
+    "require": {
+        "nikic/php-parser": "^1.2|^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lisachenko Alexander",
+            "email": "lisachenko.it@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Go\\AstManipulator\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Go\\AstManipulator\\": "tests/"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
